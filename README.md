@@ -1,59 +1,184 @@
-# Skin Sense
+<div align="center">
 
-## Project Overview
-Skin Sense is a React Native/Expo mobile app for identifying common skin diseases. It blends onboarding, symptom questions, image capture, and result guidance with environmental context such as weather/UV data and nearby hospital locations.
+# 🩺 Skin Sense
+### AI-Powered Skin Disease Identification Mobile Application
 
-## Problem Statement
-Users need fast, accessible guidance for skin concerns, plus prevention tips and nearby care options.
+<p>
+A Software Development Group Project (SDGP) developed at the University of Westminster.
+</p>
 
-## Solution Summary
-Skin Sense guides users through a short questionnaire and image capture, sends images to an ML prediction API, and presents the predicted condition with prevention tips and nearby hospitals on a map. The experience is rounded out with a weather/UV dashboard plus profile, feedback, and contact screens.
+<img src="https://img.shields.io/badge/React%20Native-Mobile%20App-61DAFB?style=for-the-badge&logo=react&logoColor=white"/>
+<img src="https://img.shields.io/badge/Machine%20Learning-AI-purple?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+<img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge"/>
 
-## Technical Architecture
-- Expo + React Native app with React Navigation stack screens.
-- Auth flows call remote signup/signin APIs via Axios.
-- Image capture uses Expo Image Picker, converts to base64, and posts to the ML prediction endpoint.
-- Results combine static disease info/prevention tips with Expo Location and Google Places API hospital search, rendered on react-native-maps.
-- Dashboard integrates OpenWeather API data (temperature, humidity, wind, UV index) with a searchable city input.
-- AsyncStorage persists the signed-in user name for the dashboard greeting.
+</div>
 
-## Key Features
-- Welcome screen, login, and signup flows.
-- 4-step symptom questionnaire before image capture.
-- Camera or gallery image capture with ML prediction submission.
-- Results screen with disease description and prevention tips.
-- Map view with current location and nearby hospitals.
-- Weather and UV index dashboard with city search.
-- Profile overview, feedback submission via mail, and contact/about screens.
+---
 
-## Tech Stack
-- React Native, Expo, React Navigation
-- Axios, Formik, styled-components
-- Expo Image Picker, Expo Location, react-native-maps
-- OpenWeather API, Google Places API, external auth + ML prediction APIs
+# 📖 Overview
 
-## Setup and Run Instructions
-1. Install dependencies:
-   ```bash
-   npm install
-   ```
-2. Start the Expo app:
-   ```bash
-   npm run start
-   ```
-3. Optional platform targets:
-   ```bash
-   npm run android
-   npm run ios
-   npm run web
-   ```
+Skin Sense is an AI-powered mobile application developed to assist users in identifying common skin diseases through image analysis.
 
-## Challenges Faced
-- Managed camera/gallery and location permissions across screens.
-- Coordinated multiple external APIs (ML prediction, weather, places, auth) in a mobile flow.
-- Designed a results experience that merges ML output with curated prevention guidance.
+Users can capture or upload an image of a skin condition, answer a few symptom-related questions, and receive an AI-assisted prediction together with useful information about the identified disease.
 
-## Key Learnings
-- Integrated device capabilities (image capture, location) with Expo.
-- Built a multi-step React Navigation flow for questionnaires and results.
-- Combined live API data (weather, hospitals) with static health content.
+The application was developed as part of the **Software Development Group Project (SDGP)** module at the **University of Westminster**.
+
+---
+
+# ✨ Features
+
+- 📷 Capture skin images using the device camera
+- 🖼 Upload images from the gallery
+- 🤖 AI-assisted skin disease prediction
+- 📋 Symptom-based questionnaire
+- 📄 Disease information and recommendations
+- 📍 Nearby medical assistance map
+- 🌞 Daily UV Index information
+- 👤 User authentication
+- 👤 User profile management
+- 🎨 Modern and user-friendly interface
+
+---
+
+# 🛠 Technology Stack
+
+## Mobile Development
+
+- React Native
+- JavaScript
+- React Navigation
+
+## Artificial Intelligence
+
+- Machine Learning
+- Image Classification
+
+## Backend
+
+- Node.js
+- Express.js
+
+## Database
+
+- Firebase
+
+## Development Tools
+
+- Git
+- GitHub
+- Visual Studio Code
+- Android Studio
+- Figma
+
+---
+
+# 🚀 Key Functionalities
+
+- User Registration & Login
+- Skin Image Capture
+- Skin Disease Prediction
+- Interactive Questionnaire
+- Disease Information
+- Nearby Hospital Recommendation
+- User Profile
+- Dashboard with UV Index
+- Responsive Mobile UI
+
+---
+
+# 👥 Team Members
+
+This project was developed collaboratively by:
+
+- **Manuja Guruge**
+- **Kumuditha**
+- **Himansi**
+- **Viruna**
+
+---
+
+# 🙋 My Contribution
+
+As a member of the development team, I contributed to:
+
+- React Native mobile application development
+- User Interface implementation
+- Application integration
+- Feature development
+- Testing and debugging
+- Git version control and collaboration
+
+---
+
+# 🚀 Getting Started
+
+## Clone the repository
+
+```bash
+git clone https://github.com/manujaguruge123/Skin-Sense-SDGP.git
+```
+
+## Install dependencies
+
+```bash
+npm install
+```
+
+## Run the application
+
+```bash
+npm start
+```
+
+or
+
+```bash
+npx react-native run-android
+```
+
+---
+
+# 📂 Project Structure
+
+```
+Skin-Sense-SDGP
+│
+├── assets/
+├── components/
+├── navigators/
+├── screens/
+├── App.js
+├── package.json
+└── README.md
+```
+
+---
+
+# 🎯 Learning Outcomes
+
+This project provided practical experience in:
+
+- Mobile Application Development
+- React Native
+- Team Collaboration
+- Git & GitHub Workflow
+- Machine Learning Integration
+- UI/UX Design
+- Agile Software Development
+
+---
+
+# 📜 License
+
+This project was developed for educational purposes as part of the Software Development Group Project (SDGP) at the University of Westminster.
+
+---
+
+<div align="center">
+
+### ⭐ If you like this project, consider giving it a star!
+
+Developed with ❤️ by the Skin Sense Team
+
+</div>
